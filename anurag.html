@@ -59,6 +59,195 @@
         </div>
     </nav>
     <!-- navbar ends here -->
+
+    <!-- contact starts here -->
+    <section class="contact py-5 my-5" id="contact">
+        <div class="container bg-dark" style="color: azure;">
+            <div class="row">
+                <div class="col-md-8 col-10 mx-auto mb-3 my-5 py-5 border shadow">
+                    <h3 class="text-center mb-3">Predict your chance to dropout</h3>
+                    <form action="contact.html" method="POST" id="form">
+                        <div class="row px-3">
+                            <!-- <div class="form-group">
+                                <label>First Name</label>
+                                <input name="fisrtname" id="firstname" type="text" placeholder="First Name"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group mx-3">
+                                <label>Middle Name</label>
+                                <input name="middlename" id="middlename" type="text" placeholder="Middle Name"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name</label>
+                                <input name="lastname" id="lastname" type="text" placeholder="Last Name"
+                                    class="form-control">
+                            </div> -->
+                            <form action="form.php">
+                                Select the level of Standard
+                                <select name="Standard" id="Standard">
+                                    <option value="Primary">Primary</option>
+                                    <!-- <option value="Primary"></option> -->
+                                    <option value="Secondary">Secondary</option>
+                                    <option value=" Senior Secondary">Senior Seconadry</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="form-group">
+                            <label>Age</label>
+                            <input name="age" id="age" type="text" placeholder="age" class="form-control">
+                        </div>
+
+                        <div class="row px-3">
+                            <div class="form-group">
+                                <label>Gender : </label>
+                                <label for="genderm">
+                                    <input type="radio" value="gender m" name="gender" id="genderm">Male
+                                </label>
+                                <label for="genderf">
+                                    <input type="radio" value="gender f" name="gender" id="genderf">Female
+                                </label>
+                                <label for="gendert">
+                                    <input type="radio" value="gender t" name="gender" id="gendert">Trans
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="row px-3">
+                            <div class="form-group">
+                                <label>Area of Study : </label>
+                                <label for="arear">
+                                    <input type="radio" value="area r" name="area" id="arear">Rural
+                                </label>
+                                <label for="areau">
+                                    <input type="radio" value="area u" name="area" id="areau">Urban
+                                </label>
+                                <!-- <label for="gendert">
+                                    <input type="radio" value="gender t" name="gender" id="gendert">Trans
+                                </label> -->
+                            </div>
+                        </div>
+                        
+                        <div class="row px-3">
+                            <div class="form-group">
+                                <label>School type : </label>
+                                <label for="schoolp">
+                                    <input type="radio" value="school p" name="school" id="schoolp">Private
+                                </label>
+                                <label for="schoolg">
+                                    <input type="radio" value="school g" name="school" id="schoolg">Government
+                                </label>
+                                <!-- <label for="gendert">
+                                    <input type="radio" value="gender t" name="gender" id="gendert">Trans
+                                </label> -->
+                            </div>
+                        </div>
+
+                        <form action="form.php">
+                            Latest Standard result
+                            <select name="result" id="result">
+                                <option value="90">90%-100%</option>
+                                <!-- <option value="Primary"></option> -->
+                                <option value="80">80%-90%</option>
+                                <option value="70">70-80%</option>
+                                <option value="60">60-70%</option>
+                                <option value="50">50-60%</option>
+                                <option value="40">40-50%</option>
+                            </select>
+                        </form>
+
+                        <!-- <form action="form.php"> -->
+
+                        <!-- </form> -->
+
+
+                        <div class="form-group">
+                            <label>Family Income</label>
+                            <input name="income" id="income" type="income" placeholder="income" class="form-control">
+                        </div>
+                        <!-- <div class="form-group">
+                            <label>Message</label>
+                            <textarea name="msg" id="msg" class="form-control" placeholder="Message"></textarea>
+                        </div> -->
+
+                        <button type="submit" class="btn btn-primary
+    btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact ends here -->
+
+    <!-- ==============footer starts here============== -->
+    <section class="footer_section pt-5 pb-2 bg-dark" id="footer_section" style="color: azure;">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-6 pl-5 pl-small-15">
+                        <div class="footer_title">
+                            <a href="index.html">
+                                <img src="logo5.jpg" alt="logo" width="200px" height="100px" style="border-radius: 5%;">
+                            </a>
+                        </div>
+                        <div>
+                            Padhega India tabhi to badhega India
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="javascript:;">Know about us</a></li>
+                                <li><a href="javascript:;">Get Coupon</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>New Products</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="https://www.buddy4study.com/">Scholarships</a></li>
+                                <li><a href="javascript:;">News</a></li>
+                                <li><a href="javascript:;">Mastering</a></li>
+                                <li><a href="javascript:;">E-books</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Support</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="javascript:;">Frequently Asked Questions</a></li>
+                                <li><a href="javascript:;">Terms & Conditions</a></li>
+                                <li><a href="javascript:;">Privacy Policy</a></li>
+                                <li><a href="javascript:;">Report a Payment Issue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top">
+                <h6 class="text-center mt-3">Copyright ©2020 All rights reserved
+                </h6>
+            </div>
+        </footer>
+    </section>
+    <div class="backtop">
+        <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+            <i class="fas fa-chevron-up text-dark"></i>
+        </a>
+    </div>
+    <!-- ==============footer ends here============== -->
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
