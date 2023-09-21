@@ -270,11 +270,18 @@
             // Get a reference to the button and output element
             var button = document.getElementById("printButton");
             var output = document.getElementById("output");
-    
+            var income = document.getElementById("income");
+            
             // Define the function to be executed when the button is clicked
             function printOutput() {
                 // Generate some output text or data
-                var outputText = "The dropout probability of student is 0.96 ";
+                var outputText;
+                
+                
+                    outputText = "Based on above inputs , Chance of dropout is YES !!! ";
+                
+                
+                 
                 
                 // Update the content of the output element with the generated text
                 output.textContent = outputText;
